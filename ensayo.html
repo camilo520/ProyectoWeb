@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+
+    <script>
+        function picture() {
+            var picture_type = document.getElementById('picture_type').value;
+            if (picture_type == 2) {
+                document.getElementById('picture_div').innerHTML = '<a href="predefined_pics.php">Click here</a> to select one.';
+            }
+            if(picture_type == 1) {
+            document.getElementById('picture_div').innerHTML = 'URL: <input name="url" type="text" style="width: 100%" />';
+            }
+            if (picture_type >= 1) {
+                document.getElementById('picture_div').style.display = 'block';
+            } else {
+                document.getElementById('picture_div').style.display = 'none';
+            }
+        }
+        </script>
+</head>
+<body>
+        
+        
+        <select id="picture_type" onchange="return picture();">
+        <option value="0" selected="selected">Upload</option>
+        <option value="1">URL</option>
+        <option value="2">Select</option>
+        </select>
+        
+        
+        <div id="picture_div" style="display: none;">
+        URL: <input name="url" type="text" style="width: 100%" />
+        </div>
+</body>
+</html>

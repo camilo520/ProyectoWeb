@@ -1,0 +1,124 @@
+#o-head{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(142, 230, 149);
+}
+
+.o-titleP{
+    margin-left: 5em;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.o-img-logo{
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.o-buttons{
+    margin-right: 2em;
+    display: flex;
+    justify-content: space-around;
+    min-width: 10rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    text-align: center;
+}
+
+.o-user{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+
+#o-nav-login{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.o-back-image{
+    width: 100%;
+    opacity: 0.8;
+    transform: scaleX(-1);
+}
+
+.o-buttons-nav{
+    position: absolute;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.o-imgs-right{
+    margin-top: 1rem;
+    margin-left: 45rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.o-imgs-left{
+    min-width: 20rem;
+    position: absolute;
+    margin-left: -40rem;
+    margin-top: 20rem;
+    font-size: 50px;
+    text-align: center;
+    color: #74e976;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-shadow: 0px 0px 10px #000000;
+}
+
+.o-buttons-doc{
+    font-size: 50px;
+    min-width: 35rem;
+    height: 11rem;
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.o-buttons-doc:hover{
+    background: rgb(142, 230, 149);
+    box-shadow: 2px 2px 24px 10px  grey;
+    padding-top: -200px;
+}
+
+.o-config{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h4{
+    font-family: sans-serif;
+    margin-top: -1em;
+    color: white;
+}
+
+h3{
+    font-family: sans-serif;
+}
