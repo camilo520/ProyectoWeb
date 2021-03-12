@@ -67,6 +67,18 @@
     opacity: 0.8;
 }
 
+.o-title{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    color: #a4faa5;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 2em;
+    margin-right: 2em;
+    text-shadow: 0px 0px 5px #000000;
+}
+
 .o-login-box{
     position: absolute;
     opacity: 0.9;
@@ -122,7 +134,7 @@
 
 #o-pacientes{
       font-family: sans-serif;
-  }
+}
 
 #o-doctores{
     font-family: sans-serif;
