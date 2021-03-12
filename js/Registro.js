@@ -26,6 +26,11 @@ function changeVar() {
         typeU2.style.display='none';   
         //document.getElementById('picture_div').style.display = 'block';
     }
+    else if(type == "nada"){
+        typeU.style.display='none';
+        typeU2.style.display='none';   
+        typeU3.style.display='none'; 
+    }
     else {
         
         //document.getElementById('picture_div').style.display = 'none';

@@ -3,35 +3,53 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    background-color: turquoise;
+    background-color: rgb(142, 230, 149);
 }
 
 .o-titleP{
     margin-left: 5em;
     display: flex;
     align-items: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
+}
+
+.o-img-logo{
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
 }
 
 .o-buttons{
+    margin-right: 2em;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     min-width: 10rem;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
+    text-align: center;
 }
 
 .o-btn{
     min-width: 7rem;
     height: 2rem;
     border: 1px solid black;
-    background-color: blue;
-    color: white;
+    background-color: transparent;
+    color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5rem;
     margin: 0 0.5rem;
     text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.o-btn:hover{
+    background: white;
+
 }
 
 #o-nav-login{
@@ -46,7 +64,7 @@
 .o-back-image{
     width: 100%;
     height: 20%;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 
 .o-login-box{
@@ -54,44 +72,35 @@
     opacity: 0.9;
     display: flex;
     justify-content: space-around;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
     width: 50%;
     height: 500px;
     margin: 10rem 25rem 10rem 20rem;
-    background-color: tomato;
+    background-color: rgb(142, 230, 149);
 }
 
 .o-text-box{
     display: flex;
     justify-content: center;
     flex-direction: column;
+    flex-wrap: wrap;
+
 }
 
 .o-buttonR{
-
     display: flex;
     justify-content: center;
-}
 
-.dropbtn {
-    background-color: #3498DB;
-    color: white;
-    padding: 10px 60px;
-    font-size: 12px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropbtn:hover, .dropbtn:focus {
-    background-color: #2980B9;
-  }
+}
   
   .dropdown {
+    flex-wrap: wrap;
     position: relative;
     display: inline-block;
     margin-bottom: 20px;
+
   }
   
   .dropdown-content {
@@ -110,7 +119,46 @@
     text-decoration: none;
     display: block;
   }
-  
+
+#o-pacientes{
+      font-family: sans-serif;
+  }
+
+#o-doctores{
+    font-family: sans-serif;
+}
+#o-eps{
+    font-family: sans-serif;
+}
+
   .dropdown a:hover {background-color: #ddd;}
   
   .show {display: block;}
+
+#typePacientes{
+    height: 30px;
+    width: 15em;
+    border-width: 0px 0px 2px;
+}
+
+#typeDoctores{
+    height: 30px;
+    width: 15em;
+    border-width: 0px 0px 2px;
+}
+
+#typeEps{
+    height: 30px;
+    width: 15em;
+    border-width: 0px 0px 2px;
+}
+
+h4{
+    font-family: sans-serif;
+    margin-top: -1em;
+    color: white;
+}
+
+h3{
+    font-family: sans-serif;
+}
